@@ -17,6 +17,7 @@ class influxdb::server (
   $meta_bind_address                            = $influxdb::params::meta_bind_address,
   $meta_http_bind_address                       = $influxdb::params::meta_http_bind_address,
   $retention_autocreate                         = $influxdb::params::retention_autocreate,
+  $default_retention_policy_name                = $influxdb::params::default_retention_policy_name,
   $election_timeout                             = $influxdb::params::election_timeout,
   $heartbeat_timeout                            = $influxdb::params::heartbeat_timeout,
   $leader_lease_timeout                         = $influxdb::params::leader_lease_timeout,

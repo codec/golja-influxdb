@@ -20,6 +20,7 @@ class influxdb::server::config {
   $meta_bind_address                            = $influxdb::server::meta_bind_address
   $meta_http_bind_address                       = $influxdb::server::meta_http_bind_address
   $retention_autocreate                         = $influxdb::server::retention_autocreate
+  $default_retention_policy_name                = $influxdb::server::default_retention_policy_name
   $election_timeout                             = $influxdb::server::election_timeout
   $heartbeat_timeout                            = $influxdb::server::heartbeat_timeout
   $leader_lease_timeout                         = $influxdb::server::leader_lease_timeout

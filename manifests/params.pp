@@ -16,6 +16,7 @@ class influxdb::params {
   $meta_bind_address                            = ':8088'
   $meta_http_bind_address                       = ':8091'
   $retention_autocreate                         = true
+  $default_retention_policy_name                = 'autogen'
   $election_timeout                             = '1s'
   $heartbeat_timeout                            = '1s'
   $leader_lease_timeout                         = '500ms'
